@@ -2,6 +2,7 @@
   --primary: #efb6b2;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
+  --addingImage: #05254d;
 }
 
 .title {
@@ -11,16 +12,23 @@
   h1 {
     font-size: 1.2rem;
     text-align: left;
-    color: var(--primary);
+    color: var(--secondary);
     letter-spacing: 2px;
     font-weight: normal;
   }
   h2 {
     font-size: 2.6rem;
     letter-spacing: 5px;
+    color: var(--secondary);
+    text-align: center;
   }
   h2,
   p {
     text-align: center;
   }
+}
+.progressbar {
+  height: 5px;
+  background-color: var(--secondary);
+  margin-top: 20px;
 }
